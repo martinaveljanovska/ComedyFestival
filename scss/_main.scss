@@ -136,6 +136,10 @@ body {
 				border-bottom: none;
 				justify-content: left;
 				padding-left: 20px;
+				word-break: break-all;
+				display: flex;
+				flex-wrap: wrap;
+				text-align: left;
 			}
 
 			ul {

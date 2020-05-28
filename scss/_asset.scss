@@ -53,6 +53,7 @@
 			p {
 				text-align: center;
 				font-weight: 400;
+				padding: 10px;
 			}
 		} // itemdetails
 
@@ -114,5 +115,11 @@
 				}
 			}
 		}
+		#item-title {
+			font-size: 1.5em;
+		}
 	}
 } // asset
+#item-description {
+	padding: 0 20px;
+}
