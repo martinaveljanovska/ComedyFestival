@@ -1,69 +1,73 @@
-
-.section{
-  width: 100%;
-  max-width: 1000px;
-  margin: 0 auto;
-  padding: 50px 20px;
-  box-sizing: border-box;
+.section {
+	width: 100%;
+	max-width: 1000px;
+	margin: 0 auto;
+	padding: 50px 20px;
+	box-sizing: border-box;
 }
 
-.section-title{
-  text-transform: uppercase;
-  font-size: 14px;
-  color: #8f8f8f;
-  font-weight: 600;
-  opacity: .7;
+.section-title {
+	text-transform: uppercase;
+	font-size: 14px;
+	color: #8f8f8f;
+	font-weight: 600;
+	opacity: 0.7;
 }
 
-@media (max-width: 950px){
-  .button{
-    &:hover{
-      background-color: #fff;
-      border-color: #fff;
-      color: #222;
-      box-shadow: 0 0 18px 4px rgba(255, 255, 255, 0.29);
-    }
-  }
+@media (max-width: 950px) {
+	.button {
+		&:hover {
+			background-color: #fff;
+			border-color: #fff;
+			color: #222;
+			box-shadow: 0 0 18px 4px rgba(255, 255, 255, 0.29);
+		}
+	}
 }
 
-a.link{
-  text-decoration: underline;
-  font-style: italic;
-  color: inherit;
+a.link {
+	text-decoration: underline;
+	font-style: italic;
+	color: inherit;
 }
 
 //back to top button
 .back-to-top {
-background: none;
-display: none;
-margin: 0;
-position: fixed;
-bottom: 150px;
-right: 23px;
-width: 35px;
-height: 35px;
-z-index: 100;
-text-decoration: none;
-color: #fff;
-opacity: .5;
- background-color: rgba(9, 9, 9, 0.6);
- border-radius: 60px;
-    transition: all .3s ease-in-out;
-  i{
-      font-size: 38px;
-      position: relative;
-      left: -1.5px;
-      top: -1.5px;
-  }
+	background: none;
+	display: none;
+	margin: 0;
+	position: fixed;
+	bottom: 250px;
+	right: 23px;
+	width: 35px;
+	height: 35px;
+	z-index: 100;
+	text-decoration: none;
+	color: #fff;
+	opacity: 0.5;
+	background-color: rgba(9, 9, 9, 0.6);
+	border-radius: 60px;
+	transition: all 0.3s ease-in-out;
+	i {
+		font-size: 38px;
+		position: relative;
+		left: -1.5px;
+		top: -1.5px;
+	}
 
-  &:hover{
-    opacity: 1;
-  }
+	&:hover {
+		opacity: 1;
+	}
 }
-
 
 // ------------------ helpers
 
-.hide{ display: none !important;}
-.flex{ display: flex!important;}
-.overflow{ overflow: hidden;}
+.hide {
+	display: none !important;
+}
+.flex {
+	display: flex !important;
+}
+.overflow {
+	overflow: hidden;
+}

@@ -2,6 +2,7 @@ html {
 	padding: 0;
 	margin: 0;
 	box-sizing: border-box;
+	scroll-behavior: smooth;
 }
 
 body {
@@ -44,8 +45,8 @@ body {
 			background-color: $primary;
 			text-transform: uppercase;
 
-			.logo {
-				max-width: 130px;
+			a {
+				text-transform: lowercase;
 			}
 		}
 
@@ -104,6 +105,11 @@ body {
 		padding-right: 20px;
 	}
 
+	.hamburger-inner,
+	.hamburger-inner:after,
+	.hamburger-inner:before {
+		background-color: #fff;
+	}
 	@media (min-width: 790px) {
 		.hamburger {
 			display: none;
@@ -123,7 +129,7 @@ body {
 @media (max-width: 789px) {
 	#nav-wrapper {
 		padding: 0;
-
+		background-color: $primary;
 		.nav-container {
 			position: relative;
 			.nav-logo {
@@ -137,7 +143,8 @@ body {
 				justify-content: center;
 				padding: 0;
 				position: fixed;
-				background-color: #fff;
+				background-color: $primary;
+
 				height: 100vh;
 				width: 100vw;
 				top: 0;
@@ -149,6 +156,12 @@ body {
 
 				li {
 					margin: 20px 0;
+
+					a,
+					.login-button {
+						color: white;
+						font-weight: 700;
+					}
 				}
 
 				&.slideInDown {
