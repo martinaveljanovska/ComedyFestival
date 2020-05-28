@@ -4,7 +4,6 @@
 	}
 	.faq-info {
 		display: flex;
-		padding: 0 10px;
 		box-sizing: border-box;
 
 		ul {
@@ -57,22 +56,6 @@
 		}
 	} //faq
 
-	@media (max-width: 950px) {
-		.faq-info {
-			flex-direction: column;
 
-			ul {
-				width: 80%;
-				margin: 0 auto;
-			}
-		}
-	}
 
-	@media (max-width: 600px) {
-		.faq-info {
-			ul {
-				width: 90%;
-			}
-		}
-	}
 }
